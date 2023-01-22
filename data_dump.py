@@ -7,7 +7,7 @@ client = pymongo.MongoClient(
 db = client.test
 
 DATA_FILE_PATH = r"D:\End-to-End Projects\Insurance_End_to_End_project\insurance.csv"
-DATABASE_NAME = 'INSURANCE'
+DATABASE_NAME = 'INSURANCE' 
 COLLECTION_NAME = "INSURANCE_PROJECT"
 
 if __name__ == '__main__':
