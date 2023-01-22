@@ -6,7 +6,7 @@ client = pymongo.MongoClient(
     "mongodb+srv://vamshi1:BrtrsheTpigjmzLn@cluster0.hxknkxg.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 
-DATA_FILE_PATH = r'D:\End-to-End Projects\Insurance_Project\Insurance_End_to_End_project\insurance.csv'
+DATA_FILE_PATH = r"D:\End-to-End Projects\Insurance_End_to_End_project\insurance.csv"
 DATABASE_NAME = 'INSURANCE'
 COLLECTION_NAME = "INSURANCE_PROJECT"
 
